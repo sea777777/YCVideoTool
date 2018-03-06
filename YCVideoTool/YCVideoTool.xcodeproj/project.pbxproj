@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35D095E22046EA1600D6AF9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D095E12046EA1600D6AF9C /* AppDelegate.m */; };
+		35D095E52046EA1600D6AF9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D095E42046EA1600D6AF9C /* ViewController.m */; };
+		35D095E82046EA1600D6AF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D095E62046EA1600D6AF9C /* Main.storyboard */; };
+		35D095EA2046EA1600D6AF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D095E92046EA1600D6AF9C /* Assets.xcassets */; };
+		35D095ED2046EA1600D6AF9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D095EB2046EA1600D6AF9C /* LaunchScreen.storyboard */; };
+		35D095F02046EA1600D6AF9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D095EF2046EA1600D6AF9C /* main.m */; };
+		35D096022046EC1B00D6AF9C /* YCAssetWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D095F92046EC1B00D6AF9C /* YCAssetWriter.m */; };
+		35D096032046EC1B00D6AF9C /* YCSessionManager+DeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D095FB2046EC1B00D6AF9C /* YCSessionManager+DeviceUtils.m */; };
+		35D096042046EC1B00D6AF9C /* YCSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D095FD2046EC1B00D6AF9C /* YCSessionManager.m */; };
+		35D096052046EC1B00D6AF9C /* YCSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D095FF2046EC1B00D6AF9C /* YCSettings.m */; };
+		35D096062046EC1B00D6AF9C /* YCVideoChunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D096012046EC1B00D6AF9C /* YCVideoChunk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35D095DD2046EA1600D6AF9C /* YCVideoTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCVideoTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D095E02046EA1600D6AF9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35D095E12046EA1600D6AF9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35D095E32046EA1600D6AF9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35D095E42046EA1600D6AF9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35D095E72046EA1600D6AF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35D095E92046EA1600D6AF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35D095EC2046EA1600D6AF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35D095EE2046EA1600D6AF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D095EF2046EA1600D6AF9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35D095F82046EC1B00D6AF9C /* YCAssetWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCAssetWriter.h; sourceTree = "<group>"; };
+		35D095F92046EC1B00D6AF9C /* YCAssetWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCAssetWriter.m; sourceTree = "<group>"; };
+		35D095FA2046EC1B00D6AF9C /* YCSessionManager+DeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YCSessionManager+DeviceUtils.h"; sourceTree = "<group>"; };
+		35D095FB2046EC1B00D6AF9C /* YCSessionManager+DeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YCSessionManager+DeviceUtils.m"; sourceTree = "<group>"; };
+		35D095FC2046EC1B00D6AF9C /* YCSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCSessionManager.h; sourceTree = "<group>"; };
+		35D095FD2046EC1B00D6AF9C /* YCSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCSessionManager.m; sourceTree = "<group>"; };
+		35D095FE2046EC1B00D6AF9C /* YCSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCSettings.h; sourceTree = "<group>"; };
+		35D095FF2046EC1B00D6AF9C /* YCSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCSettings.m; sourceTree = "<group>"; };
+		35D096002046EC1B00D6AF9C /* YCVideoChunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCVideoChunk.h; sourceTree = "<group>"; };
+		35D096012046EC1B00D6AF9C /* YCVideoChunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCVideoChunk.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35D095DA2046EA1600D6AF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35D095D42046EA1600D6AF9C = {
+			isa = PBXGroup;
+			children = (
+				35D095F62046EC1B00D6AF9C /* Library */,
+				35D095DF2046EA1600D6AF9C /* YCVideoTool */,
+				35D095DE2046EA1600D6AF9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35D095DE2046EA1600D6AF9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35D095DD2046EA1600D6AF9C /* YCVideoTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35D095DF2046EA1600D6AF9C /* YCVideoTool */ = {
+			isa = PBXGroup;
+			children = (
+				35D095E02046EA1600D6AF9C /* AppDelegate.h */,
+				35D095E12046EA1600D6AF9C /* AppDelegate.m */,
+				35D095E32046EA1600D6AF9C /* ViewController.h */,
+				35D095E42046EA1600D6AF9C /* ViewController.m */,
+				35D095E62046EA1600D6AF9C /* Main.storyboard */,
+				35D095E92046EA1600D6AF9C /* Assets.xcassets */,
+				35D095EB2046EA1600D6AF9C /* LaunchScreen.storyboard */,
+				35D095EE2046EA1600D6AF9C /* Info.plist */,
+				35D095EF2046EA1600D6AF9C /* main.m */,
+			);
+			path = YCVideoTool;
+			sourceTree = "<group>";
+		};
+		35D095F62046EC1B00D6AF9C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				35D095F72046EC1B00D6AF9C /* filter */,
+				35D095F82046EC1B00D6AF9C /* YCAssetWriter.h */,
+				35D095F92046EC1B00D6AF9C /* YCAssetWriter.m */,
+				35D095FA2046EC1B00D6AF9C /* YCSessionManager+DeviceUtils.h */,
+				35D095FB2046EC1B00D6AF9C /* YCSessionManager+DeviceUtils.m */,
+				35D095FC2046EC1B00D6AF9C /* YCSessionManager.h */,
+				35D095FD2046EC1B00D6AF9C /* YCSessionManager.m */,
+				35D095FE2046EC1B00D6AF9C /* YCSettings.h */,
+				35D095FF2046EC1B00D6AF9C /* YCSettings.m */,
+				35D096002046EC1B00D6AF9C /* YCVideoChunk.h */,
+				35D096012046EC1B00D6AF9C /* YCVideoChunk.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		35D095F72046EC1B00D6AF9C /* filter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = filter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35D095DC2046EA1600D6AF9C /* YCVideoTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D095F32046EA1600D6AF9C /* Build configuration list for PBXNativeTarget "YCVideoTool" */;
+			buildPhases = (
+				35D095D92046EA1600D6AF9C /* Sources */,
+				35D095DA2046EA1600D6AF9C /* Frameworks */,
+				35D095DB2046EA1600D6AF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCVideoTool;
+			productName = YCVideoTool;
+			productReference = 35D095DD2046EA1600D6AF9C /* YCVideoTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35D095D52046EA1600D6AF9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lyc;
+				TargetAttributes = {
+					35D095DC2046EA1600D6AF9C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 35D095D82046EA1600D6AF9C /* Build configuration list for PBXProject "YCVideoTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35D095D42046EA1600D6AF9C;
+			productRefGroup = 35D095DE2046EA1600D6AF9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35D095DC2046EA1600D6AF9C /* YCVideoTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35D095DB2046EA1600D6AF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D095ED2046EA1600D6AF9C /* LaunchScreen.storyboard in Resources */,
+				35D095EA2046EA1600D6AF9C /* Assets.xcassets in Resources */,
+				35D095E82046EA1600D6AF9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35D095D92046EA1600D6AF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D095E52046EA1600D6AF9C /* ViewController.m in Sources */,
+				35D096032046EC1B00D6AF9C /* YCSessionManager+DeviceUtils.m in Sources */,
+				35D096052046EC1B00D6AF9C /* YCSettings.m in Sources */,
+				35D096042046EC1B00D6AF9C /* YCSessionManager.m in Sources */,
+				35D095F02046EA1600D6AF9C /* main.m in Sources */,
+				35D096062046EC1B00D6AF9C /* YCVideoChunk.m in Sources */,
+				35D095E22046EA1600D6AF9C /* AppDelegate.m in Sources */,
+				35D096022046EC1B00D6AF9C /* YCAssetWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35D095E62046EA1600D6AF9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D095E72046EA1600D6AF9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35D095EB2046EA1600D6AF9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D095EC2046EA1600D6AF9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35D095F12046EA1600D6AF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35D095F22046EA1600D6AF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35D095F42046EA1600D6AF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D928VE7KD3;
+				INFOPLIST_FILE = YCVideoTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lyc.YCVideoTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35D095F52046EA1600D6AF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D928VE7KD3;
+				INFOPLIST_FILE = YCVideoTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lyc.YCVideoTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35D095D82046EA1600D6AF9C /* Build configuration list for PBXProject "YCVideoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D095F12046EA1600D6AF9C /* Debug */,
+				35D095F22046EA1600D6AF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D095F32046EA1600D6AF9C /* Build configuration list for PBXNativeTarget "YCVideoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D095F42046EA1600D6AF9C /* Debug */,
+				35D095F52046EA1600D6AF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35D095D52046EA1600D6AF9C /* Project object */;
+}
